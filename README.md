@@ -1,10 +1,8 @@
 
-![GitHub Repo stars](https://img.shields.io/github/stars/code-x-mania/filestreambot?color=blue&style=flat)
-![GitHub forks](https://img.shields.io/github/forks/code-x-mania/filestreambot?color=green&style=flat)</align>
-![GitHub contributors](https://img.shields.io/github/contributors/code-x-mania/filestreambot?style=flat)
+
 ![GitHub repo size](https://img.shields.io/github/repo-size/code-x-mania/filestreambot?color=yellow)
 [![Telegram Bot](https://img.shields.io/badge/Telegram-Bot-blue.svg)](https://t.me/filetoliprobot)
-[![Telegram -Bot](https://img.shields.io/badge/Telegram-Bot-purple.svg)](https://t.me/filetoliprorobot)
+[![Telegram -Bot](https://img.shields.io/badge/Telegram-Bot_2-purple.svg)](https://t.me/filetoliprorobot)
 ![GitHub](https://img.shields.io/github/license/code-x-mania/filestreambot)
 [![Bot Support](https://img.shields.io/badge/File%20Stream%20Bot-support%20group-blue)](https://t.me/codexmaniachat)
 [![Telegram Channel](https://img.shields.io/badge/Telegram-Channel-blue.svg)](https://t.me/codexmania)
@@ -52,25 +50,8 @@
 
 ## ♢ How to make your own :
 
-### `Either you could locally host or deploy on `[Heroku](https://heroku.com)
-## 💜 Heroku
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy/)
-
-<br>
-
-### RAILWAY
-[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template?template=https%3A%2F%2Fgithub.com%2FCode-X-Mania%2Ffilestreambot&envs=API_HASH%2CAPI_ID%2CFQDN%2CDATABASE_URL%2CBOT_TOKEN%2CHAS_SSL%2CNO_PORT%2CPORT%2COWNER_ID%2COWNER_USERNAME%2CSESSION_NAME%2CUPDATES_CHANNEL&optionalEnvs=FQDN&API_HASHDesc=Get+this+value+from+https%3A%2F%2Fmy.telegram.org&API_IDDesc=Get+this+value+from+https%3A%2F%2Fmy.telegram.org&FQDNDesc=ENTER+YOUR+RAILWAY+APP+URL&DATABASE_URLDesc=Get+it+from+mongodb.com&BOT_TOKENDesc=Get+it+from+%40botfather&HAS_SSLDesc=Don%27t+touch+this&NO_PORTDesc=keep+default+value.&PORTDesc=Default+value+is+8080&OWNER_IDDesc=Your+telegram+id+%7C+get+it+from+%40username_to_id_bot&OWNER_USERNAMEDesc=Your+telegram+username+without+%40&SESSION_NAMEDesc=Keep+default+or+enter+your+name&UPDATES_CHANNELDesc=ENTER+CHANNEL+USERNAME+WITHOUT+%40+++%7C++None+if+you+don%27t+want&BOT_TOKENDefault=also+add+bot+to+bin+channel+and+updates+channel+if+any&HAS_SSLDefault=True&NO_PORTDefault=False&PORTDefault=8080&OWNER_USERNAMEDefault=codexmania&SESSION_NAMEDefault=filetolinkprobot&UPDATES_CHANNELDefault=codexmania&referralCode=ADARSH)
-<p>
-
-
-
-
-##  `♢ Click on This Drop-down and get more details`
-
-<br>
-<details>
-  <summary><b>Deploy on Heroku or Railway:</b></summary>
+<b>Deploy on Heroku or Railway:
 
 
 1. Fork This Repo <br>
@@ -82,16 +63,12 @@
 
 Press the below button to  deploy on Heroku
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy/)
   
   Press the below button to  deploy on Railway 
   
-[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template?template=https://github.com/code-x-mania/filestreambot)
-
- </details>
-
-<details>
-  <summary><b>Available commands and features:</b></summary>
+[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template?template=https%3A%2F%2Fgithub.com%2FCode-X-Mania%2Ffilestreambot&envs=API_HASH%2CAPI_ID%2CFQDN%2CDATABASE_URL%2CBOT_TOKEN%2CHAS_SSL%2CNO_PORT%2CPORT%2COWNER_ID%2COWNER_USERNAME%2CSESSION_NAME%2CUPDATES_CHANNEL&optionalEnvs=FQDN&API_HASHDesc=Get+this+value+from+https%3A%2F%2Fmy.telegram.org&API_IDDesc=Get+this+value+from+https%3A%2F%2Fmy.telegram.org&FQDNDesc=ENTER+YOUR+RAILWAY+APP+URL&DATABASE_URLDesc=Get+it+from+mongodb.com&BOT_TOKENDesc=Get+it+from+%40botfather&HAS_SSLDesc=Don%27t+touch+this&NO_PORTDesc=keep+default+value.&PORTDesc=Default+value+is+8080&OWNER_IDDesc=Your+telegram+id+%7C+get+it+from+%40username_to_id_bot&OWNER_USERNAMEDesc=Your+telegram+username+without+%40&SESSION_NAMEDesc=Keep+default+or+enter+your+name&UPDATES_CHANNELDesc=ENTER+CHANNEL+USERNAME+WITHOUT+%40+++%7C++None+if+you+don%27t+want&BOT_TOKENDefault=also+add+bot+to+bin+channel+and+updates+channel+if+any&HAS_SSLDefault=True&NO_PORTDefault=False&PORTDefault=8080&OWNER_USERNAMEDefault=codexmania&SESSION_NAMEDefault=filetolinkprobot&UPDATES_CHANNELDefault=codexmania&referralCode=ADARSH)
+ <p><b>Available commands and features:</b>
  
 <p>
  
@@ -103,19 +80,9 @@ Press the below button to  deploy on Heroku
 `/status  - to know how many users are using the bot` <br>
 `/broadcast - To send message to all the users using the bot`
 
-🚀Features<p>
-```
-💥Superfast⚡️ download and stream links.
-💥No ads in generated links.
-💥Superfast interface.
-💥Along with the links you also get file information like name,size ,etc.
-💥Updates channel Support.
-💥Mongodb database support for broadcasting.
-```
+
   
-  </details>
-<details>
-  <summary><b>Host it on VPS Locally :</b></summary>
+  <b>Host it on VPS Locally :</b></summary>
 
 
 ```py
@@ -150,11 +117,7 @@ SESSION_NAME=Codexmania
 HAS_SSL=True
 FQDN= Enter Custom domain if any or server ip
 ```
-  </details>
-
-<details>
-  <summary><b>Vars and Details :</b></summary>
-
+ <b>Vars and Details :</b>
 `API_ID` : Goto [my.telegram.org](https://my.telegram.org) to obtain this.
 
 `API_HASH` : Goto [my.telegram.org](https://my.telegram.org) to obtain this.
@@ -167,7 +130,7 @@ FQDN= Enter Custom domain if any or server ip
   
 `OWNER_USERNAME` : Your telegram username to be displayed in bot  . make one in you dont have.
 
-`DATABASE_URL` : MongoDB URI for saving User IDs when they first Start the Bot. We will use that for Broadcasting to them. I will try to add more features related with Database. If you need help to get the URI you can ask in [Me Telegram](https://t.me/adarshhh0).
+`DATABASE_URL` : MongoDB URI for saving User IDs when they first Start the Bot. We will use that for Broadcasting to them. I will try to add more features related with Database. If you need help to get the URI you can ask in [Telegram](https://t.me/codexmania).
 
  Optional Vars
 
@@ -187,12 +150,13 @@ FQDN= Enter Custom domain if any or server ip
 
 `FQDN` :  A Fully Qualified Domain Name if present. Defaults to `WEB_SERVER_BIND_ADDRESS` </details>
 
-<details>
-  <summary><b>How to Use :</b></summary>
+<b>How to Use :</b>
 
 :warning: **Before using the  bot, don't forget to add the bot to the `BIN_CHANNEL` as an Admin**
  
 `/start` : To check if the bot is alive or not.
+
+
 
 To get an instant stream link, just forward any media to the bot and boom, its fast af.
   ![image](https://user-images.githubusercontent.com/88939380/137128326-059f9c53-b3d0-40f0-8484-b17709fbcc11.png)
