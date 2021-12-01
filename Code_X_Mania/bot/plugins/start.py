@@ -43,11 +43,11 @@ async def start(b, m):
             except UserNotParticipant:
                 await b.send_message(
                     chat_id=m.chat.id,
-                    text="<i>[̲̅J][̲̅ᴏ][̲̅ɪ][̲̅ɴ]  [̲̅ᴍ][̲̅ʏ]   [̲̅ᴜ][̲̅ᴘ][̲̅ᴅ][̲̅ᴀ][̲̅ᴛ][̲̅ᴇ][̲̅S]  [̲̅ᴄ][̲̅ʜ][̲̅ᴀ][̲̅ɴ][̲̅ɴ][̲̅ᴇ][̲̅ʟ]  [̲̅ᴛ][̲̅ᴏ]  [̲̅ᴜ][̲̅s][̲̅ᴇ]  [̲̅ᴍ][̲̅ᴇ] 🔐</i>",
+                    text="<i>JOIN @iPRIMEHUB CHANNEL TO USE ME 🔐</i>",
                     reply_markup=InlineKeyboardMarkup(
                         [
                             [
-                                InlineKeyboardButton("Jᴏɪɴ ɴᴏᴡ 🔓", url=f"https://t.me/{Var.UPDATES_CHANNEL}")
+                                InlineKeyboardButton("JOIN🔓", url=f"https://t.me/{Var.UPDATES_CHANNEL}")
                             ]
                         ]
                     ),
@@ -66,14 +66,13 @@ async def start(b, m):
 <i>👋 ꜰɪʟᴇ ᴛᴏ ʟɪɴᴋ ʙᴏᴛ ᴡɪᴛʜ ʙᴏᴛʜ ᴅᴏᴡɴʟᴏᴀᴅ ᴀɴᴅ ꜱᴛʀᴇᴀᴍ ʟɪɴᴋ ꜱᴜᴘᴘᴏʀᴛ</i>\n
 <i>Send a file/video and see magic!<i>\n
 <i>Cʟɪᴄᴋ ᴏɴ /help ᴛᴏ ɢᴇᴛ ᴍᴏʀᴇ ɪɴғᴏʀᴍᴀᴛɪᴏɴ</i>\n
-<i><b>🍃 Bᴏᴛ Made Bʏ :</b>@CodeXMania</i>\n\n
 <i><b>It is your responsibility to use wisely I dont take responsibilities of any voilations(of any kind)</i>\n
 <i><u>𝗪𝗔𝗥𝗡𝗜𝗡𝗚 🚸</u></i>\n
 <b>Dont Spam.</b>""",
             parse_mode="HTML",
             disable_web_page_preview=True,
-            reply_markup=InlineKeyboardMarkup( [ [InlineKeyboardButton('Owner', url=f"https://t.me/{Var.OWNER_USERNAME}"),
-                                                                                       InlineKeyboardButton('Follow ', url='https://github.com/Code-x-Mania') ] ]  ) )
+            reply_markup=InlineKeyboardMarkup( [ [InlineKeyboardButton('Owner', url=f"https://t.me/h7n9_alpha"),
+                                                                                       InlineKeyboardButton('Follow ', url='https://instagram.com/rahul_rahaman_') ] ]  ) )
                                                                                        
                                                                                        
                                                                             
@@ -155,7 +154,7 @@ async def start(b, m):
 
 <b>🚸 Nᴏᴛᴇ : LINK WON'T EXPIRE TILL I DELETE</b>
 
-<i>© @AdarshGoelo5 </i>"""
+"""
 
         await m.reply_text(
             text=msg_text.format(file_name, file_size, online_link, stream_link),
@@ -207,13 +206,12 @@ async def help_handler(bot, message):
             return
    
     await message.reply_text(
-       text="https://telegra.ph/Adarsh-10-22-3",
+       text="Send me any file/media from telegram, I'll provide external direct download link..",
             parse_mode="HTML",
             
           reply_markup=InlineKeyboardMarkup(
             [
-                [InlineKeyboardButton("🏵 DEV", url="https://t.me/CODEXMANIA")],
-                [InlineKeyboardButton("🍺 FOLLOW", url="https://GITHUB.COM/CODE-X-MANIA")]
+                [InlineKeyboardButton("😇Donate", url="https://paypal.me/rahulrahaman")]
             ]
         )
     )
