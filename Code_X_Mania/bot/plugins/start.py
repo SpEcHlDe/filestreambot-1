@@ -11,12 +11,11 @@ db = Database(Var.DATABASE_URL, Var.SESSION_NAME)
 from pyshorteners import Shortener
 
 def get_shortlink(url):
-   shortlink = False 
+   shortlink = False
    try:
       shortlink = Shortener().dagd.short(url)
    except Exception as err:
-       print(err)
-       pass
+      print(err)
    return shortlink
 
 @StreamBot.on_message(filters.command('start') & filters.private & ~filters.edited)

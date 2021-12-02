@@ -6,7 +6,9 @@ from dotenv import load_dotenv
 load_dotenv()
 
 
-class Var(object):
+
+
+class Var((object)):
     API_ID = int(getenv('API_ID'))
     API_HASH = str(getenv('API_HASH'))
     BOT_TOKEN = str(getenv('BOT_TOKEN'))
@@ -31,4 +33,9 @@ class Var(object):
         "http://{}:{}/".format(FQDN, PORT)
     DATABASE_URL = str(getenv('DATABASE_URL'))
     UPDATES_CHANNEL = str(getenv('UPDATES_CHANNEL', None))
-    BANNED_CHANNELS = list(set(int(x) for x in str(getenv("BANNED_CHANNELS", "-1001362659779")).split()))
+    BANNED_CHANNELS = list(
+        {
+            int(x)
+            for x in str(getenv("BANNED_CHANNELS", "-1001362659779")).split()
+        }
+    )
